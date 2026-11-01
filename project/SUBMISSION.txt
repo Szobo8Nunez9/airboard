@@ -1,0 +1,7 @@
+https://github.com/Szobo8Nunez9/airboard
+
+airboard is a webcam whiteboard made with AI assistance. Draw with an index finger, erase with two fingers, hover with an open hand and clear with a one-second fist hold. Notebook mode saves multiple pages, recognizes text locally for review and editing, and exports a PDF. A mouse demo is available. Optional vision APIs interpret the exported board image.
+
+Attached: project report and class presentation slides.
+
+The project includes 80 passing software tests. I confirmed that the app launched successfully from Terminal on 1 November. Real handwriting recognition accuracy and live AI answer quality remain unmeasured.

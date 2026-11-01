@@ -1,0 +1,7 @@
+AIRBOARD MIDTERM SUBMISSION
+
+Upload Airboard-Report.pdf and Airboard-Presentation.pptx (or the slide PDF).
+Push the contents of the project folder to GitHub.
+Put your actual GitHub repository link on the first line of Submission-Text.txt, then paste the text into the course submission page.
+
+The report and draft submission text currently use https://github.com/Szobo8Nunez9/airboard. Create that repository or update the link before submitting.

@@ -1,0 +1,46 @@
+{
+  "data_source": "synthetic_trajectories",
+  "camera_used": false,
+  "sample_count": 360,
+  "alpha_raw": 1.0,
+  "alpha_ema": 0.5,
+  "theoretical_low_frequency_lag_frames": 1.0,
+  "lag_note": "EMA (1-alpha)/alpha at low frequencies; not measured webcam latency",
+  "jitter_metric": "Variance of the second-difference magnitude, in squared coordinate units per frame to the fourth power",
+  "mean_raw_jitter_variance": 30.155,
+  "mean_smoothed_jitter_variance": 4.528,
+  "overall_jitter_reduction_percent": 85.0,
+  "trajectories": {
+    "line": {
+      "ground_truth_length_px": 800.0,
+      "raw_rmse_to_ground_truth_px": 4.915,
+      "ema_rmse_to_ground_truth_px": 7.417,
+      "raw_length_px": 1137.69,
+      "ema_length_px": 850.28,
+      "raw_jitter_variance": 32.596,
+      "ema_jitter_variance": 4.976,
+      "jitter_reduction_percent": 84.7
+    },
+    "circle": {
+      "ground_truth_length_px": 1130.84,
+      "raw_rmse_to_ground_truth_px": 4.706,
+      "ema_rmse_to_ground_truth_px": 9.615,
+      "raw_length_px": 1321.16,
+      "ema_length_px": 1139.21,
+      "raw_jitter_variance": 27.928,
+      "ema_jitter_variance": 3.97,
+      "jitter_reduction_percent": 85.8
+    },
+    "corner": {
+      "ground_truth_length_px": 620.0,
+      "raw_rmse_to_ground_truth_px": 4.909,
+      "ema_rmse_to_ground_truth_px": 5.654,
+      "raw_length_px": 1030.42,
+      "ema_length_px": 664.92,
+      "raw_jitter_variance": 29.94,
+      "ema_jitter_variance": 4.639,
+      "jitter_reduction_percent": 84.5
+    }
+  },
+  "chart_path": "evaluation/results/smoothing_comparison.png"
+}

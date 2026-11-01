@@ -1,0 +1,25 @@
+# Secrets
+.env*
+!.env.example
+*.pem
+*.key
+# Python and environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Personal images, answers, trial captures, and temporary files
+snapshots/
+*.log
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+# Private notebook pages and locally compiled OCR helper
+notebooks/
+.cache/

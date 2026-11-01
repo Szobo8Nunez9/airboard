@@ -1,0 +1,11 @@
+{
+  "automated_tests": {
+    "command": "python -B -m pytest -q -p no:cacheprovider",
+    "scope": "Controlled software checks with mocked network responses; no webcam or live API accuracy measurement",
+    "passed": 80,
+    "failed": 0
+  },
+  "camera_status": "User confirmed the Terminal launch worked on 1 November. Real camera quality and accuracy remain unmeasured",
+  "live_ai_status": "Not measured; no provider requests made",
+  "repair_status": "Six reproduced issues repaired and covered by regression checks"
+}

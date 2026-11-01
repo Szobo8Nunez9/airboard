@@ -1,0 +1,180 @@
+{
+  "run_id": "20261030T075615Z-e91731c1",
+  "timestamp": "2026-10-30T07:56:15.401340+00:00",
+  "data_source": "not_measured",
+  "status": "not_measured",
+  "total_boards": 15,
+  "claude_alone_accuracy": null,
+  "chatgpt_alone_accuracy": null,
+  "agreement_rate": null,
+  "correctness_method": "Human grading of full replies against a fixed rubric",
+  "reason": "Live APIs were not requested. No model quality measurement exists.",
+  "board_results": [
+    {
+      "id": "eq_01",
+      "category": "equation",
+      "title": "Linear Equation (2x + 7 = 19)",
+      "ground_truth": "x = 6",
+      "path": "evaluation/test_boards/eq_01_linear.png",
+      "sha256": "d421e9696592abc713b8c7f8986ffa8ab27705a27281224cf2f014833150bfd1",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "eq_02",
+      "category": "equation",
+      "title": "Quadratic Equation (x^2 - 5x + 6 = 0)",
+      "ground_truth": "x = 2, 3",
+      "path": "evaluation/test_boards/eq_02_quadratic.png",
+      "sha256": "c532861df7b39c64c05ac34e312450436f56e4c8d20a5889ec04f11fc7343ff4",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "eq_03",
+      "category": "equation",
+      "title": "Derivative d/dx(3x^2 + 4x)",
+      "ground_truth": "6x + 4",
+      "path": "evaluation/test_boards/eq_03_derivative.png",
+      "sha256": "917edea3e31556c1ea8a78c34dbf35360c5bf20934ff32c1266768eb8034677b",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "eq_04",
+      "category": "equation",
+      "title": "Fraction Addition (3/4 + 2/3)",
+      "ground_truth": "17/12 (approx 1.417)",
+      "path": "evaluation/test_boards/eq_04_fraction.png",
+      "sha256": "3cf0d0887dcc8414f0fd649c0f09eca63a39c6ca78f905c9c5049b766d0cab77",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "eq_05",
+      "category": "equation",
+      "title": "Definite Integral (int_0^2 2x dx)",
+      "ground_truth": "4",
+      "path": "evaluation/test_boards/eq_05_integral.png",
+      "sha256": "02459d6a2c337c40ce3c716e6b2208605250388c68ef16bc5b9674b2fa9696d1",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "sk_01",
+      "category": "sketch",
+      "title": "System Architecture Flowchart",
+      "ground_truth": "Three-tier architecture diagram: Client connected to Server connected to Database",
+      "path": "evaluation/test_boards/sk_01_flowchart.png",
+      "sha256": "daf1bda3c97de52e0f4f90a507c8abd91be9f2daf9ccc3524a2084982684b106",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "sk_02",
+      "category": "sketch",
+      "title": "Suburban House Sketch",
+      "ground_truth": "Drawing of a house with triangular gabled roof, door, and divided window pane",
+      "path": "evaluation/test_boards/sk_02_house.png",
+      "sha256": "b5970037feb6bb0b771c05e0e8d5ec99874ef37aa2ffd9fb7e4db49add9f647f",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "sk_03",
+      "category": "sketch",
+      "title": "Series RC Circuit Diagram",
+      "ground_truth": "Schematic of electrical series circuit with voltage source, resistor R, and capacitor C",
+      "path": "evaluation/test_boards/sk_03_circuit.png",
+      "sha256": "2f4621a600ecbfb5f24b06d04bc1b6497248312314e2b1422aae6154516f2048",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "sk_04",
+      "category": "sketch",
+      "title": "Waving Stick Figure",
+      "ground_truth": "Stick figure person with right hand raised waving",
+      "path": "evaluation/test_boards/sk_04_stickfigure.png",
+      "sha256": "39340b31a640971ec6c39420e13a5d84ccb39626c2f8da98ae1c30a251dd2829",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "sk_05",
+      "category": "sketch",
+      "title": "Tree and Sun Landscape",
+      "ground_truth": "Landscape sketch showing radiant sun with rays next to leafy tree with brown trunk",
+      "path": "evaluation/test_boards/sk_05_tree_sun.png",
+      "sha256": "722a38fa358a454dfcd36cd63a9a6aedcaa3070de2c52b0e1e10e137064bec5f",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "ms_01",
+      "category": "messy",
+      "title": "Scribbled Linear Equation with Ink Blot",
+      "ground_truth": "y = mx + b with stray underlines and blotches",
+      "path": "evaluation/test_boards/ms_01_scribble_linear.png",
+      "sha256": "92656843f1e110b9b15f8c1a1f6c21dfc7a2a2cb3c901dcdd2a4603eca0e4556",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "ms_02",
+      "category": "messy",
+      "title": "Crossout Arithmetic Correction",
+      "ground_truth": "4 x 5 = 20 (with 18 crossed out in red and 20 corrected)",
+      "path": "evaluation/test_boards/ms_02_crossout.png",
+      "sha256": "b8a20b030c2f14f6fb8974ea838d70b8faf519959f1ae0d707444e9e52a945dd",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "ms_03",
+      "category": "messy",
+      "title": "Incomplete Geometric Outlines",
+      "ground_truth": "Fragmented incomplete polygons with question marks",
+      "path": "evaluation/test_boards/ms_03_broken_polygons.png",
+      "sha256": "149680a455bb40b1aa3a1376bddc0b221f70e6ba1701c0b600741d6c65c41104",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "ms_04",
+      "category": "messy",
+      "title": "Low-Contrast Faint Equation with Noise",
+      "ground_truth": "1/x + 1/y = 1 obscured by optical noise specks",
+      "path": "evaluation/test_boards/ms_04_noisy_fraction.png",
+      "sha256": "dcdd4937af7f9cfb30ea68aa14087945b6c7ebcc93697e25dd6ccfbd20b46a0f",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    },
+    {
+      "id": "ms_05",
+      "category": "messy",
+      "title": "Chaotic Abstract Scribble",
+      "ground_truth": "Chaotic dense stroke scribble labeled STORM",
+      "path": "evaluation/test_boards/ms_05_chaotic_scribble.png",
+      "sha256": "ee031bddd52ee8409ded316c77dfd8003c229ee16a15b2c7a5c4bcf31445e1a0",
+      "claude": null,
+      "chatgpt": null,
+      "agreement": null
+    }
+  ],
+  "grading_csv": "evaluation/results/ai_grading_20261030T075615Z-e91731c1.csv"
+}

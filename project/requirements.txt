@@ -1,0 +1,12 @@
+# Python 3.11; MediaPipe legacy mp.solutions API.
+mediapipe==0.10.14
+# MediaPipe already depends on contrib. Avoid two competing cv2 packages.
+opencv-contrib-python>=4.8.0,<6
+numpy>=1.24,<3
+python-dotenv>=1.0,<2
+requests>=2.31,<3
+pillow>=10
+matplotlib>=3.7
+pytest>=8
+# Rebuilding the PDF report only
+reportlab>=4

@@ -1,0 +1,77 @@
+{
+  "data_source": "synthetic_landmarks",
+  "total_trials": 100,
+  "overall_accuracy": 1.0,
+  "confusion_matrix": {
+    "DRAW": {
+      "DRAW": 25,
+      "HOVER": 0,
+      "ERASE": 0,
+      "CLEAR": 0,
+      "IDLE": 0,
+      "NO_HAND": 0
+    },
+    "HOVER": {
+      "DRAW": 0,
+      "HOVER": 25,
+      "ERASE": 0,
+      "CLEAR": 0,
+      "IDLE": 0,
+      "NO_HAND": 0
+    },
+    "ERASE": {
+      "DRAW": 0,
+      "HOVER": 0,
+      "ERASE": 25,
+      "CLEAR": 0,
+      "IDLE": 0,
+      "NO_HAND": 0
+    },
+    "CLEAR": {
+      "DRAW": 0,
+      "HOVER": 0,
+      "ERASE": 0,
+      "CLEAR": 25,
+      "IDLE": 0,
+      "NO_HAND": 0
+    }
+  },
+  "class_metrics": {
+    "DRAW": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 25
+    },
+    "HOVER": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 25
+    },
+    "ERASE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 25
+    },
+    "CLEAR": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 25
+    }
+  },
+  "prediction_classes": [
+    "DRAW",
+    "HOVER",
+    "ERASE",
+    "CLEAR",
+    "IDLE",
+    "NO_HAND"
+  ],
+  "trials_csv": "evaluation/results/gesture_trials.csv",
+  "csv_path": "evaluation/results/gesture_confusion_matrix.csv",
+  "chart_path": "evaluation/results/gesture_confusion_matrix.png",
+  "camera_used": false
+}
